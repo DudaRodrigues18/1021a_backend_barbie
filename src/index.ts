@@ -4,8 +4,8 @@ import express from 'express';
 const app = express();
 
 // Define uma rota padrão
-app.get('/', (req, res) => {
-    res.send('Olá, mundo!');
+app.get('/filmes', (req, res) => {
+    res.send(201);
 });
 
 // Inicia o servidor
