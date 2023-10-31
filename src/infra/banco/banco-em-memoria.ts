@@ -3,5 +3,6 @@ export default class BancoEmMemoria{
     constructor(){}
     public salvar(input){
         this.dados.push(input)
+        return true
     }
 }
